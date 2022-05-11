@@ -4,7 +4,7 @@ package prueba;
 import java.time.LocalDate;
 
 public class Autor {
-    private int Autor;
+    private int autor;
     private String apellido;
     private String nombre;
     private LocalDate fechaNac;
