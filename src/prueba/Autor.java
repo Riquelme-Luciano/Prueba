@@ -4,7 +4,7 @@ package prueba;
 import java.time.LocalDate;
 
 public class Autor {
-    private int idAutor;
+    private int Autor;
     private String apellido;
     private String nombre;
     private LocalDate fechaNac;
@@ -17,12 +17,12 @@ public class Autor {
         this.fechaNac = fechaNac;
     }
 
-    public int getIdAutor() {
-        return idAutor;
+    public getAutor(){
+        return autor;
     }
 
-    public void setIdAutor(int idAutor) {
-        this.idAutor = idAutor;
+    public void setAutor(int Autor) {
+        this.Autor = idAutor;
     }
 
     public String getApellido() {
@@ -53,4 +53,5 @@ public class Autor {
     public String toString() {
         return "Datos del Autor\napellido=" + apellido + ", nombre=" + nombre + ", fechaNac=" + fechaNac + '}';
     }
+    
 }
